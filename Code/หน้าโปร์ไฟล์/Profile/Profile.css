@@ -1,0 +1,104 @@
+.videoBackground{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire container */
+    z-index: -1;
+}
+.Modal_Profile .modal-content,.Modal_Profile .modal-footer{
+    right: 20%;
+    width: 135%;
+    height: 100%;
+}
+.btn.btn-warning.custom-history-Profile{
+    background-color: rgb(226, 186, 53);
+}
+.btn.btn-warning.custom-history-Profile:hover{
+    background-color: rgb(236, 205, 104);
+}
+.block-image-Profile{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 1% 25% 3% 25%;
+}
+.block-edite-img{
+    position: absolute;
+    cursor: pointer;  
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 75%;
+    height: 230px;
+
+    z-index: 1;
+}
+.block-edite-img:hover{
+    opacity: 100;
+    background-color: rgba(196, 196, 196, 0.5);
+}
+.Image_Profile{
+    border-radius: 80%;
+    width : 75%;
+    height: 230px;
+    z-index: 0;
+}
+.HeadText-Profile{
+    border-bottom: 2px solid rgba(61, 61, 61, 0.384);
+    margin: 3% 10% 5% 10%;
+}
+.HeadText-Profile-secondary{
+    border-bottom: 2px solid rgba(61, 61, 61, 0.384);
+    margin: 3% 0% 5% 0%;
+}
+.ContentText{
+    margin: 0% 10% 0% 10%;
+    font-size: 90%;
+}
+.text-user{
+    color: rgba(54, 54, 54, 0.658);
+    animation:  text-opacity 2s forwards;
+}
+.text-user-address{
+    padding: 5px;
+    background-color: rgba(121, 121, 121, 0.253);
+    border-radius: 5px;
+}
+
+
+.Button-Edite-img{
+    width: 40%;
+    z-index: 1;
+}
+.Button-Edite{
+    cursor: pointer;
+    margin-left: 2%;
+    width: 10px;
+    height: 10px;
+}
+.Button-Edite:hover{
+    background-color: rgba(190, 190, 190, 0.384);
+}
+.Button-Popup{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.Modal-Popup{
+    background-color: rgba(75, 75, 75, 0.322);
+}
+@keyframes text-opacity {
+    100%{
+        opacity: 100%;
+    }
+    0%{
+        opacity: 0%;
+    }
+}

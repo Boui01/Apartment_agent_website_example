@@ -1,0 +1,236 @@
+body{
+    overflow-x: hidden;
+}
+.MarginDefualt{
+    margin: 0% 0% 5% 2%;
+}
+.MarginImgSlide{
+    margin: 0% 0% 5% 0%;
+}
+.Home-Page-Main{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+
+.btn.btn-warning.MarginDefualt{
+    color: rgb(73, 73, 73);
+    background-color: rgba(255, 196, 0, 0.781);
+    border-color: rgb(255, 197, 6);
+    box-shadow: 0px 0px 10px rgb(252, 229, 99) ;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+.btn.btn-warning.MarginDefualt:hover{
+    transform: scale(0.98);
+    background-color: rgb(252, 215, 52);
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+.ImgSlide{
+    border:2px solid;
+    border-color: rgba(116, 115, 115, 0.356);
+
+    width: 100%;
+    height: 100%;
+}
+.block-between-Imag-NavSlide{
+    background-color: rgb(39, 39, 39);
+    padding: 1.5%;
+    box-shadow: 0px 10px 10px rgba(175, 175, 175, 0.651);
+}
+.row.HeadClass{
+    margin : 1% 2% 1% 1%;
+}
+.h2HeadClass{
+    position: relative;
+    background-color: rgb(43, 42, 42);
+    box-shadow: 6px 5px 2px rgb(51, 50, 50);
+    border: 1px solid rgb(138, 138, 137);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1;
+    min-width: 180px;
+    animation: up-down 2s forwards;
+    /*animation: glow 3s infinite;*/
+}
+
+
+
+.ListApartment.MarginDefualt.col-sm-4{
+    min-width: 400px;
+}  
+.ListApartment{
+    position: relative;
+    padding: 10px;
+   
+    background-color: rgba(252, 252, 252, 0.548);
+    border: 1px solid rgba(156, 156, 156, 0.479);
+
+    box-shadow: 10px 4px 4px rgba(58, 58, 58, 0.979);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+
+}
+.ListApartment-block{
+    position: relative;
+    margin-top: 2%;
+}
+.ListApartment-animation{
+    animation: slideLeft 3s forwards;
+}
+.ListApartment:hover{
+    transform: scale(0.99);
+    background-color: rgb(252, 241, 211);
+    border: 2px solid rgb(250, 215, 119);
+    box-shadow: 0px 0px 0px rgba(253, 232, 176, 0.5);
+    /*animation: glow 1s forwards;*/
+
+}
+.card.card-user-home{
+    position: relative;
+    justify-content: flex-start;
+    right: 8%;
+    transform: scale(0.8);
+    box-shadow: 10px 4px 5px rgb(245, 195, 58);
+    border:1px solid rgb(185, 185, 185);
+    min-width: 400px;
+    max-width: 450px;
+    transition: all 0.3s ease;
+}
+.card.card-user-home:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 174, 0);
+    box-shadow: 0px 0px 10px rgb(253, 215, 0);
+    border:1px solid rgb(211, 179, 132);
+    transition: all 0.3s ease;
+}
+.card-apartment-home{
+    position: relative;
+    cursor: pointer;
+    transform: scale(95%);
+}
+.card-body.card-body-user-home.row{
+    padding: 3%;
+} 
+
+
+.block-img-user-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50%;
+    height: 70px;
+}
+.block-text-user-home{
+    position: relative;
+    right: 5%;
+    justify-content: center;
+    padding: 0;
+}
+.img-user-home{
+    border-radius: 80%;
+    width : 50%;
+    height: 100%;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgb(250, 215, 119); 
+}
+.block-image-star-home{
+    position: absolute;
+    right: 1%;
+    top:  1%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+.image-star-home{
+    width: 13px;
+}
+
+
+.form-check .check-input-home:checked {
+    background-color: #663300;
+    box-shadow: 1px 1px 10px rgb(136, 136, 136);
+    border-color: rgb(97, 97, 97);
+}
+.form-check .check-input-home:not(:checked){
+    border-color: rgb(156, 156, 156);
+    box-shadow: 1px 1px 10px rgb(136, 136, 136);
+}
+.block-imgSlide-apartment{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    border: 1px solid rgb(156, 156, 156);
+    margin: 5% 7%;
+    overflow: hidden; 
+    max-width: fit-content;
+    min-width: 85%;
+}
+.imgSlide-apartment{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*   Label    */
+.custom-label-time-home{
+    position: relative;
+    color: rgb(104, 103, 103);
+    text-shadow: 1px 1px 3px rgb(177, 177, 177);
+    bottom: 0;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.custom-label-new-home{
+    position: absolute;
+    background-color: rgb(255, 200, 21);
+    padding: 2px;
+    text-align: center;
+    width: 15%;
+    border-radius: 5px;
+
+    color: rgb(180, 123, 0);
+    text-shadow: 1px 1px 3px rgb(255, 211, 67);
+    font-size: 100%;
+    font-weight: bold;
+    margin-left: 82%;
+    top: -15px;
+    z-index: 0;
+}
+@keyframes up-down {
+    100%{
+        transform: translateY(0);
+        opacity: 100%;
+    }
+    0%{
+        transform: translateY(-50px);
+        opacity: 0%;
+    }
+}
+@keyframes glow {
+    100%{
+        box-shadow: 10px 4px 4px rgba(253, 232, 176, 0.5);
+    }
+    50%{
+        box-shadow: 0 0 20px rgb(250, 215, 119);
+    }
+    0%{
+        box-shadow: 10px 4px 4px rgba(58, 58, 58, 0.979);
+    }
+}
+@keyframes slideLeft {
+    From{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}

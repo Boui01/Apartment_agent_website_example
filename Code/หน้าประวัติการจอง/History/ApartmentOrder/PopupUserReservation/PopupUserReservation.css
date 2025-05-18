@@ -1,0 +1,137 @@
+.Modal-Main-PopupUserReservation .Modal-Main-PopupUserReservation-Head{
+    background-color:#363636;
+    color: aliceblue;
+}
+.Modal-Main-PopupUserReservation .modal-content,.Modal_Profile .modal-footer{
+    width: 180%;
+    right: 40%;
+}
+.Modal-Main-PopupUserReservation-Head h2{
+    width: 100%;
+}
+
+
+.modal-main-PopupUserReservationEdite{
+    background-color: rgba(110, 110, 110, 0.349);
+}
+.modal-head-PopupUserReservationEdite{
+    background-color: rgb(167, 134, 93);
+}
+thead.custom-table-head-PopupUserReservation tr th:nth-child(1) {
+    border-top-left-radius: 15px;
+}
+thead.custom-table-head-PopupUserReservation tr th:nth-last-child(1) {
+    border-top-right-radius: 15px;
+}
+thead.custom-table-head-PopupUserReservation tr th {
+    background-color: rgba(185, 185, 185, 0.548);
+    color: rgb(49, 49, 49);
+}
+
+.table  tbody tr.custom-table-active-PopupUserReservation th,
+.table  tbody tr.custom-table-active-PopupUserReservation td{
+    background-color: rgba(248, 211, 87, 0.555);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 5px 2px rgba(255, 196, 0, 0.788);
+    transition: all 0.3s ease;
+
+}
+.table  tbody tr.custom-table-active-PopupUserReservation th,
+.table  tbody tr.custom-table-active-PopupUserReservation:hover td{
+    cursor:default;
+}
+.table  tbody tr.custom-table-active-PopupUserReservation:hover th,
+.table  tbody tr.custom-table-active-PopupUserReservation:hover td{
+    background-color: rgb(247, 201, 117);
+    box-shadow: none;
+    transform: translateY(2px);
+    transition: all 0.3s ease;
+}
+
+.btn.custom-btn-confirm-popuserReservationEdite{
+    border-color: rgb(223, 157, 72);
+    background-color: rgb(224, 140, 28);
+    margin-right: 1%;
+    transition: all 0.3s ease;
+}
+.btn.custom-btn-confirm-popuserReservationEdite:hover{
+    transform: scale(0.98);    
+    border-color: rgb(223, 157, 72);
+    background-color: rgb(224, 140, 28);
+    box-shadow: 0px 0px 10px rgb(167, 134, 93);
+}
+Button.btn.custom-btn-confirm-popuserReservationEdite:active{
+    transform: scale(0.98);    
+    border-color: rgb(223, 157, 72);
+    background-color: rgb(224, 140, 28);
+    box-shadow: 0px 0px 10px rgb(167, 134, 93);
+}
+.btn.custom-btn-cancle-popuserReservationEdite{
+    border-color: rgb(104, 104, 104);
+    background-color: rgb(97, 97, 97);
+    margin-right: 1%;
+}
+.btn.custom-btn-cancle-popuserReservationEdite:hover{
+    transform: scale(0.98);
+    box-shadow: 0px 0px 5px rgb(97, 97, 97);
+    border-color: rgba(97, 97, 97, 0.815);
+    background-color: rgba(97, 97, 97, 0.815);
+}
+Button.btn.custom-btn-cancle-popuserReservationEdite:active {
+    transform: scale(0.98);
+    box-shadow: 0px 0px 5px rgb(97, 97, 97);
+    border-color: rgba(97, 97, 97, 0.815);
+    background-color: rgba(97, 97, 97, 0.815);
+}
+
+
+
+
+
+
+
+  @keyframes slid-down-menu {
+    from{
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+  }
+  @keyframes slid-up-menu {
+    from{
+        transform: translateY(0);
+        opacity: 1;
+        display: block;
+    }
+    to{
+        display: none;
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+  }
+
+  @keyframes slid-down-menu-btn {
+    0%{
+
+    }
+    50%{
+        box-shadow: 0px 0px 30px rgb(255, 196, 0);
+    }
+    100%{
+        box-shadow: 0px 0px 50px rgba(155, 153, 148, 0);
+    }
+  }
+  @keyframes slid-up-menu-btn {
+    0%{
+
+    }
+    50%{
+        box-shadow: 0px 0px 30px rgb(255, 196, 0);
+    }
+    100%{
+        box-shadow: 0px 0px 50px rgba(155, 153, 148, 0);
+    }
+  }

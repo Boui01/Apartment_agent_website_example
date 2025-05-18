@@ -1,0 +1,61 @@
+.block-main-ReportPage{
+    padding: 1%;
+}
+.btn-contact{
+    position: fixed;
+    right: 1%;
+    bottom: 2%;
+}
+.block-content-ReportPage{
+    margin: 1%;
+    padding: 10px;
+}
+.block-non-content-ReportPage{
+    text-align: left;
+}
+.accordion-header .block-content-ReportPage-info:not(:focus){
+    color: black;
+    border: 1px solid rgba(109, 202, 168, 0.774);
+    background-color: rgba(97, 209, 157, 0.534);
+    box-shadow: 2px 5px 5px rgba(119, 218, 119, 0.445);
+    cursor: pointer;
+}
+.accordion-header  .block-content-ReportPage-info:focus{
+    color: black;
+    border: 1px solid rgba(109, 202, 168, 0.774);
+    background-color: rgba(97, 209, 157, 0.534);
+    box-shadow: 2px 5px 10px rgba(44, 209, 44, 0.555);
+    cursor: pointer;
+}
+
+.block-content-ReportPage-slove{
+    background-color: rgba(236, 236, 236, 0.486);
+    border: 1px solid rgba(109, 202, 168, 0.774);
+    box-shadow: 2px 5px 10px rgba(44, 209, 44, 0.555);
+}
+.bg-solve-ReportPage{
+    background-color: rgba(238, 238, 238, 0.486);
+}
+.block-img-content-info-ReportPage{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 60px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden; /* Ensure image fits within the container */
+    background-color: #f0f0f0; /* Optional: Background color */
+    margin-right: 1%;
+}
+.img-ReportPage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the container without distortion */
+}
+
+.text-soft-ReportPage{
+    position: relative;
+    font-size: small;
+    margin: 0;
+    color: rgba(78, 78, 78, 0.623);
+}

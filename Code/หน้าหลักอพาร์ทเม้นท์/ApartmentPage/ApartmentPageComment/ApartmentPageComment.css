@@ -1,0 +1,149 @@
+
+/*  Content  */
+.btn-payment-fix{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 1;
+    box-shadow: 1px 1px 10px black;
+}
+.block-main{
+    overflow-x: hidden;
+}
+.block-head{
+    background-color: #f5e9d15d;
+}
+.block-img-head-content{
+    position: relative;
+    left: 10%;
+    padding: 10px;
+
+    display: block; /* Makes the image a block-level element */
+    width: 80%;    /* Ensures the image takes up the full width of its container */
+    height: auto;   /* Maintains aspect ratio */
+    margin: 0 auto; /* Centers the image horizontally */
+ 
+}
+.img-head-content-start{
+    margin: 2%;
+    height: 405px;
+}
+.img-head-content-secandary{
+    margin: 2%;
+    height: 200px;
+}
+.zoom-Up{
+    animation: zoomUp 10s infinite;
+}
+.block-content{
+    position: relative;
+    left: 5%;
+    margin: 0% 14% 0% 4%;
+}
+.block-img-favarite{
+    position: absolute;
+    top: 30%;
+    right: 2%;
+}
+.img-favorite{
+    cursor: pointer;
+}
+.head-content{
+    text-align: center;
+    margin: 3% 0%;
+}
+.body-content{
+    box-shadow: 5px 5px 5px rgba(87, 78, 57, 0.664);
+    border: 1px solid rgba(122, 122, 122, 0.733);
+    padding: 10px;
+}
+.stars-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+
+.stars-container .content-img {
+    margin-left: 5px;   
+}
+.content-img {
+    width: 20px;
+}
+.text-comment-head{
+    text-shadow: 1px 1px 5px rgb(158, 158, 158);
+}
+.text-comment-under{
+    cursor: pointer;
+}
+
+
+/* Example */
+.container-comment{
+    position: relative;
+    padding: 5px 40px;
+	width: 100%;
+}
+.addtxt{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 13px;
+	width: 100%;
+	background-color: #e5e8ed;
+	font-weight: 500;
+}
+.block-comment-input{
+    box-shadow: 1px 1px 5px black;
+    padding: 20px;
+}
+.form-control:focus{
+	color: #000;
+}
+.second{
+	width: 400px;
+    margin: 1%;
+	background-color: white;
+    border: 1px solid rgba(119, 119, 119, 0.527);
+	border-radius: 4px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+.text1{
+	font-size: 16px;
+    font-weight: 500;
+    color: #56575b;
+}
+.text2{
+	font-size: 16px;
+    font-weight: 500;
+    margin-left: 6px;
+    color: #56575b;
+}
+.text3{
+	font-size: 16px;
+    font-weight: 500;
+    margin-right: 4px;
+    color: #828386;
+}
+.text3o{
+	color: #00a5f4;
+
+}
+.text4{
+	font-size: 13px;
+    font-weight: 500;
+    color: #828386;
+}
+.text4i{
+	color: #00a5f4;
+}
+.text4o{
+	color: white;
+}
+.thumbup{
+	font-size: 13px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.thumbupo{
+	color: #17a2b8;
+}

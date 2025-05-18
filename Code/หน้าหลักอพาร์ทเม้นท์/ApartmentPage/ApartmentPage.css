@@ -1,0 +1,151 @@
+/*  Next  */
+.bg-img-next{
+    position: absolute;
+    width: 40%;
+    height: 91.5%;
+    object-fit: cover; 
+    background-color: #3b3b3b8f;
+    z-index: 1;
+    text-align: center;
+}
+.block-img-next{
+    position: absolute;
+    width: 100%;
+    height: 91.5%;
+    object-fit: cover; 
+    z-index: 0;
+}
+.animation-left{
+    animation: slideLeft 2s forwards;
+}
+.animation-up{
+    animation: slideUp 2s forwards;
+}
+.block-text-img-next{
+    margin-top: 50%;
+}
+.btn-img-next{
+    width: 25%;
+}
+.text-img-next{
+    color: #ffffff;
+}
+.btn-Reservation-fix{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 1;
+    box-shadow: 1px 1px 10px black;
+}
+.btn.custom-btn-like_apartment-apartmentpage{
+    position: relative;
+    right: 4%;
+    color: #09b6b694;
+    border: 1px solid #08ad9f94;
+}
+.btn.custom-btn-like_apartment-apartmentpage:hover{
+    position: relative;
+    right: 4%;
+    background-color: #62bfeb;
+    color: #ffffff;
+    box-shadow: 0px 0px 5px #31b6ab94;
+    border: 1px solid #08ad9f94;
+}
+.btn.custom-btn-like_apartment-apartmentpage.active-like-apartment{
+    position: relative;
+    right: 4%;
+    background-color: #62bfeb;
+    color: #ffffff;
+    box-shadow: 0px 0px 5px #31b6ab94;
+    border: 1px solid #08ad9f94;
+}
+.btn.custom-btn-favorite-apartmentpage{
+    background-color: #08ad4afa;
+    color: #ffffff;
+    border: 1px solid #08ad4a94;
+    box-shadow: 0px 0px 5px #7a7979;
+    transition: all 0.3s ease;
+}
+.btn.custom-btn-favorite-apartmentpage:hover{
+    transform: scale(0.98);
+    background-color: #00b147c7;
+    color: #ffffff;
+    border: 1px solid #08ad4a94;
+    box-shadow: 0px 0px 5px #08ad4a94;
+    transition: all 0.3s ease;
+}
+.btn.custom-btn-favorite-apartmentpage:active{
+    animation: spin 0.2s forwards;
+    background-color: #08ad4afa;
+    color: #ffffff;
+    border: 1px solid #08ad4a94;
+    box-shadow: 0px 0px 5px #1d1b1b;
+}
+.btn.custom-btn-unfavorite-apartmentpage{
+    background-color: #08ad4a94;
+    color: #ffffff;
+    border: 1px solid #08ad4a94;
+    box-shadow: 0px 0px 5px #7a7979;
+    transition: all 0.3s ease;
+}
+.btn.custom-btn-unfavorite-apartmentpage:hover{
+    transform: scale(0.98);
+    background-color: #20ad5994;
+    border: 1px solid #20ad5994;
+    box-shadow: 0px 0px 5px    #13da6294;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.btn.custom-btn-unfavorite-apartmentpage:active{
+    animation: spin 0.2s forwards;
+    background-color: #08ad4a94;
+    color: #ffffff;
+    border: 1px solid #08ad4a94;
+    box-shadow: 0px 0px 5px #7a7979;
+}
+.text3.text-comment-under.text-comment-under-active{
+    color: #00a5f4;
+}
+@keyframes spin {
+    100% { 
+        transform: rotate(360deg); 
+    }
+    0%{
+        transform: rotate(0deg);
+    }    
+}
+
+
+
+
+@keyframes slideLeft {
+    100%{
+        transform: translateX(0%);
+        opacity: 100%;
+    }
+    0%{
+        transform: translateX(10%);
+        opacity: 0%;
+    }
+}
+@keyframes slideUp {
+    100%{
+        transform: translateY(0%);
+        opacity: 100%;
+    }
+    0%{
+        transform: translateY(10%);
+        opacity: 0%;
+    }
+}
+@keyframes zoomUp {
+    50%{
+        transform: scale(1);
+        box-shadow: 1px 1px 10px rgb(104, 104, 104);
+        opacity: 100%;
+    }
+    0%{
+        transform: scale(0);
+        opacity: 0%;
+    }
+}

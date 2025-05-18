@@ -1,0 +1,29 @@
+.custom-block-image-popupExpandInfo{
+    position: relative;
+    width: 100%;
+
+}
+.custom-image-popupExpandInfo{
+    max-height: 300px;
+    min-height: 300px;
+}
+.Container-More{
+    padding-top: 15px;
+    padding-bottom: 35px;
+    border-top: 1px solid rgba(71, 71, 71, 0.377);
+}
+.btn.btn-More{
+    position: absolute;
+    right: 5%;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(250, 185, 44);
+    color: rgb(250, 185, 44);
+    transition: all 0.3 ease;
+}
+.btn.btn-More:hover{
+    transform: scale(0.98);
+    border-color: rgb(255, 200, 80);
+    background-color: rgb(255, 200, 80);
+    box-shadow: 0px 0px 10px rgb(250, 185, 44);
+    color: aliceblue;
+}

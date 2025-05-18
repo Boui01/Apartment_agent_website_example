@@ -1,0 +1,28 @@
+.content-Apartment{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    width: 100%;
+}
+
+
+
+.custom-table-ApartmentOrder {
+    position: relative;
+    cursor: pointer;
+    transform: scale(1);
+    box-shadow: none;
+    background-color: aliceblue;
+    transition: all 0.6s ease;
+}
+tbody tr.custom-table-ApartmentOrder:hover th ,
+tbody tr.custom-table-ApartmentOrder:hover td {
+    background-color: rgb(255, 225, 161);
+    transition: all 0.6s ease;
+}
+.custom-table-ApartmentOrder:hover{
+    transform: scale(0.99);
+    box-shadow: -7px 0px 3px rgb(104, 104, 104);
+}
+
+

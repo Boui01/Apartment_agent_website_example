@@ -1,0 +1,34 @@
+.content-Reservation{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    width: 100%;
+
+}
+.custom-button-table-ReservationOrder{
+    cursor: pointer;
+    transition:  transform 0.3s ease;
+    
+}
+.custom-button-table-ReservationOrder:hover{
+    transform: scale(0.99);
+    box-shadow: -7px 0px 3px rgb(104, 104, 104);
+}
+table.table tbody  tr.custom-button-table-ReservationOrder-active th,
+table.table tbody  tr.custom-button-table-ReservationOrder-active td{
+    background-color: rgb(247, 201, 117);
+}
+table.table tbody  tr.custom-button-table-ReservationOrder-active:hover th,
+table.table tbody  tr.custom-button-table-ReservationOrder-active:hover td{
+    background-color: rgb(255, 209, 150);
+}
+.custom-button-table-ReservationOrder-active{
+    transform: scale(0.99);
+    box-shadow: -7px 0px 3px rgb(104, 104, 104);
+    transition: all 0.3s ease;
+}
+
+
+
+
+

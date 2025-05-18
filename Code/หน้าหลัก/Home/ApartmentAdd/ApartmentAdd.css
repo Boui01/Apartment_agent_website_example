@@ -1,0 +1,150 @@
+.custom-btn-plus-Apartment-Add {
+    position: relative;
+    background-color: #fff; /* White background */
+    border: 2px solid #b3b3b3; /* Blue border */
+    width: 20%;
+    height: 70%;
+    font-size: 18px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
+    border-radius: 6px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-width: 40px;
+  }
+
+  .custom-btn-plus-Apartment-Add:hover {
+    background-color: #f7c42d; /* Blue background on hover */
+    border-color: #f7c42d;
+    color: #fff; /* White text on hover */
+    transform: translateY(-2px); /* Slight upward movement on hover */
+    box-shadow: 0 0px 10px rgba(255, 187, 0, 0.2); /* Increased shadow on hover */
+    animation: pulse 2s infinite;
+  }
+  
+  .custom-btn-plus-Apartment-Add img {
+    width: 24px; /* Adjust the image size */
+    height: 20px;
+    border-radius: 25px;
+    vertical-align: middle; /* Align image vertically */
+    transition: transform 0.3s ease; /* Smooth image transition */
+  }
+  
+  .custom-btn-plus-Apartment-Add:hover img {
+    transform: rotate(90deg); /* Rotate image on hover */
+  }
+
+
+.btn.btn-service-on{
+    transform: scale(0.8);
+    background-color: #f7c42d;
+}
+.btn.btn-service-off{
+    transform: scale(0.8);
+    background-color: #fdfdfd;
+}
+
+
+.modal-main .modal-content,.Modal_Profile .modal-footer{
+    right: 30%;
+    width: 155%;
+    height: 100%;
+}
+Button.btn-cancle-Apartment-Add{
+    position: relative;
+    margin-top: 2%;
+    border: none;
+    color: #313131;
+    background-color: #e6e6e6;
+    height: 40px;
+}
+Button.btn-cancle-Apartment-Add:hover{
+    background-color: #e6e6e6;
+    color: #313131;
+    box-shadow: 0px 0px 10px#e6e6e6;
+}
+Button.btn.btn-cancle-Apartment-Add:active{
+    background-color: #e6e6e6;
+    color: #313131;
+    box-shadow: 0px 0px 10px#e6e6e6;
+}
+
+Button.btn-submit-Apartment-Add{
+    position: relative;
+    margin-top: 2%;
+    left: 80%;
+    border: none;
+    margin-top: 3%;
+    color: #03c775;
+    background-color: #fdfdfd;
+    height: 40px;
+}
+Button.btn-submit-Apartment-Add:hover{
+    background-color: #0ca175;
+    box-shadow: 0px 0px 10px#0ca175;
+}
+Button.btn.btn-submit-Apartment-Add:active{
+    background-color: #0ca175;
+    box-shadow: 0px 0px 10px#0ca175;
+}
+.col-2.block-btn-plus-Apartment-Add{
+  margin-top: 0.7%;
+}
+Button.custom-btn-Apartment-Add {
+    margin: 0 10px;
+    padding: 10px 20px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    border: none;
+    border-radius: 25px;
+    color: #ffbb28;
+    background-color: #ffffffa9;
+    transition: all 0.3s ease;
+} 
+.img-btn-plus-Apartment-Add{
+    width: 100%;
+    height: 100%;
+}
+
+.btn.custom-btn-Apartment-Add:hover{
+    height: 5%;
+  
+    background-color: #ffd04fa9;
+    box-shadow: 0 0 20px #ffd04fa9;
+}
+Button.btn.custom-btn-Apartment-Add:active{
+    background-color: #ffd04fa9;
+    border-color: #f7c42d;
+}
+.btn-warning.custom-btn-Apartment-Add-checked{
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px #ffd04fa9;
+    background-color: #f7c42d;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.btn-warning.custom-btn-Apartment-Add-checked:hover{
+    background-color: #f7c42d;
+    color: #ffffff;
+
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

@@ -1,0 +1,21 @@
+.custom-toast-history-main{
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+.custom-toast-history{
+    animation: showUp 1s forwards;
+}
+
+.toast-header.custom-toast-header{
+    background-color: rgb(211, 174, 125);
+}
+
+@keyframes showUp {
+    100%{
+        transform: scale(1);
+    }
+    0%{
+        transform: scale(0);
+    }
+}

@@ -1,0 +1,53 @@
+.Modal-Login {
+    background-color: rgba(73, 73, 73, 0.384);
+}
+.Modal-Login .modal-header {
+    background-color: rgb(81, 177, 118);
+    color: rgb(238, 238, 238);
+}
+.Modal-Login .modal-content {
+    background-color: rgba(230, 230, 230, 0.938);
+}
+.Modal-Login .custom-input-login:focus{
+    border-color: rgb(247, 205, 89);
+    box-shadow: 0px 0px 5px rgb(236, 192, 70);
+} 
+.Modal-Login .custom-remember{
+    margin-top: 10px;
+}
+.custom-remember .form-check-input {
+    background-color: #f0f0f0; /* Change the background color */
+    border-color: rgb(245, 187, 28);     /* Change the border color */
+  }
+  
+.custom-remember .form-check-input:checked {
+    background-color: rgb(245, 187, 28); /* Change the color when checked */
+    border-color: rgb(245, 187, 28);
+}
+  
+.custom-remember .form-check-input:focus {
+    box-shadow: none; /* Remove focus shadow if needed */
+    border-color: rgb(245, 187, 28);
+}
+.custom-fogotten-link{
+    color: rgb(92, 91, 91);
+    cursor: pointer;
+    text-decoration: underline;
+    position : absolute;
+    right : 15px;
+    margin-top: 2%;
+}
+.custom-fogotten-link:hover{
+    color: rgb(54, 54, 54);
+}
+.btn.custom-btn-submit-login{
+    background-color: rgb(219, 184, 86);
+    box-shadow: 0px  0px  0px  rgb(219, 184, 86);
+    transition: all 0.3s ease;
+}
+.btn.custom-btn-submit-login:hover{
+    background-color: rgba(226, 196, 113, 0.938);
+    border: 1px solid rgb(219, 184, 86);
+    box-shadow: 0px  0px  5px  rgb(236, 189, 58);
+    transition: all 0.3s ease;
+}

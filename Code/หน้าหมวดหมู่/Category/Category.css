@@ -1,0 +1,92 @@
+.carousel.block-image-head .carousel .slide #carouselExampleCaptions{
+    position: relative;
+    justify-items: center;
+    align-items: center;
+    margin: 2%;
+    width: 10%;
+    height: auto;
+    max-height: 100px; /* Set a maximum height */
+    object-fit: cover; /* Cover the entire container */
+}
+.image-head{
+    width: 100%;
+    height: 100%;
+}
+.block-between-Imag-NavSlide-category{
+    background-color: rgb(39, 39, 39);
+    padding: 1.5%;
+    box-shadow: 0px 10px 10px rgba(175, 175, 175, 0.651);
+}
+.block-category-extract{
+    position: relative;
+    margin: 3% 5%;
+}
+.text-head-category-extract{
+    text-Align: center;
+    padding: 1%;
+    margin-Bottom: 5% ; 
+    text-Shadow: 0px 5px 5px #f8d37d; 
+    color: #363636;
+    background-color: #ffffff;
+    border: 1px solid rgb(131, 131, 131);
+    box-shadow: 9px 4px 2px #977830
+}
+.block-category-extract-object{
+    position: relative;
+    margin: 6%;
+    min-width: 400px;
+    min-height: 455px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    background-color: rgb(156, 119, 49);
+    border: 1px solid black;
+    box-shadow: 9px 4px 4px rgb(63, 63, 63);
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+.block-category-extract-object:hover {
+    transform: scale(0.98);
+    background-color: rgb(202, 153, 62);
+    animation: glow2 1s forwards;
+}
+@keyframes glow2 {
+    100%{
+        box-shadow: 0px 0px 0px rgba(63, 63, 63, 0);
+    }
+    50%{
+        box-shadow: 0px 0px 100px rgb(250, 215, 119);
+    }
+    0%{
+        box-shadow: 9px 4px 4px rgb(63, 63, 63);
+    }
+}
+.block-category-extract-object:hover .image-category-extract{
+    transform: scale(0.98);
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.block-image-category-extract{
+    position: absolute;
+    top: 0; /* Add these lines */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.image-category-extract{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Add this line */
+    transition: all 0.8s ease;
+
+}
+.label-category-extract{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+    color: #ffffff;
+}

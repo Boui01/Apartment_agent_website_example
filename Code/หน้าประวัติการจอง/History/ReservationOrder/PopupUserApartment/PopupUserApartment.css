@@ -1,0 +1,35 @@
+.Modal-Main-PopupUserApartment .Modal-Main-PopupUserApartment-Head{
+    color: aliceblue;
+    background-color: rgb(48, 47, 47);
+}
+
+.Modal-Main-PopupUserApartment .modal-content,
+.Modal-Main-PopupUserApartment .modal-footer{
+    position: relative;
+    width: 120%;
+    right: 20%;
+}
+.btn-close-modal-main-PopupUserApartment-Head{
+    right: 3%;
+}
+
+.progress-cercle-dashboard-PopupUserApartment{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-Modal-body-PopupUserApartment b{
+    color: rgb(248, 211, 108);
+}
+.custom-detail-PopupUserApartment{
+    background-color: rgba(252, 231, 203, 0.438);
+    border: 1px solid rgba(255, 187, 0, 0.5);
+    border-radius: 25px;
+    padding: 5%;
+}
+.custom-detail-PopupUserApartment div label{
+    color: rgb(226, 173, 0);
+}

@@ -1,0 +1,31 @@
+.form-check.check-input-popup:checked{
+    background-color: brown;
+    border-color: rgb(122, 122, 122);
+    box-shadow: 1px 1px 10px rgb(170, 94, 94);
+}
+.form-check.form-control-popup:focus{
+    box-shadow: 1px 1px 10px  rgba(133, 92, 92, 0.712);
+    border-color: rgba(87, 87, 87, 0.486);
+    outline: none;
+}
+
+.custom-checkbox {
+
+    --checkbox-color: #ececec;
+  }
+  
+  .custom-checkbox input[type="radio"] {
+    
+    background-color: var(--checkbox-color);
+  }
+  
+  .custom-checkbox input[type="radio"]:checked {
+    border-color: rgb(0, 179, 119);
+    box-shadow: 0px 0px 5px rgb(0, 179, 119);
+    background-color: rgb(0, 179, 119);
+  }
+  
+  .custom-checkbox input[type="radio"]:checked::before {
+    /* Change the checkbox checkmark color */
+    color: #fff;
+  }

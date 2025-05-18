@@ -1,0 +1,49 @@
+.btn.custom-btn-comment-admin{
+    position: relative;
+    transition: all  0.3s ease;
+    animation: object-move 5s infinite;
+}
+.btn.custom-btn-comment-admin:hover{
+    transform: scale(0.98);
+}
+
+.btn.custom-btn-comment-admin.btn-edit{
+    background-color: rgb(255, 196, 0);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 1px rgba(255, 193, 49, 0.664);
+    color: rgb(255, 255, 255);
+    right: 30%;
+}
+.btn.custom-btn-comment-admin.btn-edit:hover{
+    background-color: rgb(255, 196, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px rgb(255, 212, 73);
+}
+
+.btn.custom-btn-comment-admin.btn-delete{
+    background-color: rgb(235, 73, 73);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 1px rgba(235, 73, 73, 0.664);
+    color: rgb(255, 255, 255);
+    right: 25%;
+}
+.btn.custom-btn-comment-admin.btn-delete:hover{
+    background-color: rgb(235, 73, 73);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px rgb(235, 73, 73);
+}
+
+@keyframes object-move {
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    0% {
+        transform: translateY(0);
+    }
+    
+}

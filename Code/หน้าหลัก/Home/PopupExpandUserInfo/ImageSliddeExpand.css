@@ -1,0 +1,61 @@
+.modal-main-user-expand .modal-content,
+.Model .modal-footer{
+    background-color: rgba(252, 252, 252, 0.788);
+}
+.carousel.slide.ImageSlideExpandUser{
+    position: relative;
+    margin: 5% 15% 10% 15%;
+    border-radius: 25px;
+    display: block; 
+    width: 70%;    
+    height: auto; 
+    box-shadow: 0px 5px 5px rgb(179, 179, 179);
+    border: 1px solid rgb(134, 100, 35);
+
+}
+.modal-main-user-expand .modal-head-user-expand{
+    background-color: #222121;
+}
+
+.modal-main-user-expand .modal-head-text-user-expand{
+    margin: 1%;
+    font-size: 25px;
+    color: #e0e0e0;
+    text-shadow: 3px 2px 2px #c2881c8e;
+    border-color: antiquewhite;
+}
+.image-user-expandPage{
+    width: 70%;
+    height: 100%;
+    border-radius: 25px;
+}
+.block-text-user-expand.row{
+    position: relative;
+    margin: 5% 10%;
+    box-shadow: 0px 10px 8px rgba(116, 116, 116, 0.979);
+    background-color: rgba(255, 238, 200, 0.568);
+    border-radius: 15px;
+    font-size: 14px;
+}   
+.modal-main-user-expand.div.modal-body-user-exapand{
+    position: relative;
+    padding: 15%;
+}
+.head-text-user-expand{
+    text-shadow: 0px 0px 5px rgb(255, 196, 0);
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(43, 43, 43);
+    box-shadow: 6px 4px 2px rgb(49, 49, 49);
+    border: 1px solid gray;
+    padding: 2%;
+    margin-bottom: 9%;
+}
+.body-text-user-expand{
+    font-Weight: bold;
+    border-Top: 2px solid #fff;
+    padding-Top: 10px;
+    text-Align: center;
+    text-Shadow: 0px 0px 10px  #fcbd498e ;
+    color: #505050
+}
