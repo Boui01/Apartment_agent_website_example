@@ -1,0 +1,165 @@
+{
+  "Login": {
+    "primary": 1,
+    "name": "หน้าเข้าสู่ระบบ",
+    "Login/หน้าล็อคอิน.png": {
+      "primary": 1,
+      "th": "หน้าเข้าสู่ระบบสำหรับผู้เช่าและผู้ให้เช่าและผู้ดูแลระบบเพื่อกรอกชื่อผู้ใช้และรหัสผ่านเพื่อเข้าสู่ระบบ",
+      "en": "Login page for tenants, landlords, and administrators to enter their username and password to access the system"
+    }
+  },
+  "Register": {
+    "primary": 1,
+    "name": "หน้าลงทะเบียนสมาชิก",
+    "Register/หน้าสมัครสมาชิก.png": {
+      "primary": 1,
+      "th": "หน้าลงทะเบียนสมาชิกสำหรับผู้เช่าและผู้ให้เช่าและผู้ดูแลระบบเพื่อกรอกข้อมูลเพื่อเข้าสู่ระบบ",
+      "en": "Register page for tenants, landlords, and administrators to enter their information to access the system"
+    }
+  },
+  "Home": {
+    "primary": 2,
+    "name": "หน้าหลักแสดงข้อมูลห้องเช่า",
+    "Home/หน้าหลักแสดงข้อมูลห้องเช่า-ส่วนบน.png": {
+      "primary": 1,
+      "th": "หน้าแสดงข้อมูลห้องเช่าสำหรับผู้เช่าและผู้ให้เช่าและผู้ดูแลระบบเพื่อดูข้อมูลห้องเช่าต่าง ๆ เช่น ชื่อห้อง, ประเภทห้อง, ราคา, สถานะการจอง และอื่น ๆ",
+      "en": "Home page displaying rental room information for tenants, landlords, and administrators to view various rental room details such as room name, room type, price, booking status, and more"
+    },
+    "Home/หน้าหลักแสดงข้อมูลห้องเช่า-ส่วนล่าง.png": {
+      "primary": 2,
+      "th": "หน้าแสดงข้อมูลห้องเช่าสำหรับผู้เช่าและผู้ให้เช่าและผู้ดูแลระบบเพื่อดูข้อมูลห้องเช่าต่าง ๆ เช่น ชื่อห้อง, ประเภทห้อง, ราคา, สถานะการจอง และอื่น ๆ",
+      "en": "Home page displaying rental room information for tenants, landlords, and administrators to view various rental room details such as room name, room type, price, booking status, and more"
+    },
+    "Home/หน้าป็อปอัพเพิ่มข้อมูลอพาร์ทเม้นท์.png": {
+      "primary": 3,
+      "th": "หน้าป็อปอัพเพิ่มข้อมูลอพาร์ทเม้นท์สำหรับผู้ให้เช่าและผู้ดูแลระบบเพื่อกรอกข้อมูลอพาร์ทเม้นท์ใหม่เพื่อเพิ่มข้อมูลอพาร์ทเม้นท์เข้าสู่ระบบ",
+      "en": "Page popup for adding new apartment information for landlords and administrators to enter new apartment details to add to the system"
+    },
+    "Home/หน้าป็อปอัพการจองอพาร์ทเม้นท์.png": {
+      "primary": 4,
+      "th": "หน้าป็อปอัพการจองอพาร์ทเม้นท์สำหรับผู้เช่าเพื่อกรอกข้อมูลการจองห้องเช่าเพื่อทำการจองห้องเช่า",
+      "en": "Page popup for apartment booking for tenants to enter rental room booking information to make a reservation"
+    },
+    "Home/หน้าป็อปอัพสร้างรายงานPDF-admin.png": {
+      "primary": 5,
+      "th": "หน้าป็อปอัพสร้างรายงาน PDF สำหรับผู้ดูแลระบบเพื่อกรอกข้อมูลการสร้างรายงาน PDF ของข้อมูลห้องเช่า",
+      "en": "Page popup for generating PDF report for administrators to enter information for creating a PDF report of rental room data"
+    },
+    "Home/หน้าป็อปอัพแแสดงรายละเอียดขนาดย่ออพาร์ทเม้นท์.png": {
+      "primary": 6,
+      "th": "หน้าป็อปอัพแสดงรายละเอียดขนาดย่อของอพาร์ทเม้นท์สำหรับผู้เช่าและผู้ให้เช่าและผู้ดูแลระบบเพื่อดูรายละเอียดของอพาร์ทเม้นท์ในรูปแบบขนาดย่อ",
+      "en": "Page popup for displaying apartment details in a compact format for tenants, landlords, and administrators to view apartment details in a compact format"
+    }
+
+  },
+  "Apartment-detail": {
+    "primary": 3,
+    "name": "หน้ารายละเอียดอพาร์เม้นท์.png",
+    "Apartment-detail/หน้าเริ่มต้นแสดงรายละเอียดอพาร์เม้นท์.png": {
+      "primary": 1,
+      "th": "หน้าเริ่มต้นแสดงรายละเอียดของอพาร์เม้นท์สำหรับผู้เช่าเพื่อดูรายละเอียดของอพาร์เม้นท์ต่าง ๆ เช่น ชื่ออพาร์เม้นท์, ประเภทอพาร์เม้นท์, ราคา, สถานะการจอง และอื่น ๆ ส่วนข้อมูลแนะนำ",
+      "en": "Default page showing apartment details for tenants to view details of different apartments such as apartment name, apartment type, price, booking status, and more including recommended information"
+    },
+    "Apartment-detail/หน้าแสดงรายละเอียดอพาร์เม้นท์-ส่วนบน.png": {
+      "primary": 2,
+      "th": "หน้าแสดงรายละเอียดของอพาร์เม้นท์สำหรับผู้เช่าเพื่อดูรายละเอียดของอพาร์เม้นท์ต่าง ๆ เช่น ชื่ออพาร์เม้นท์, ประเภทอพาร์เม้นท์, ราคา, สถานะการจอง และอื่น ๆ ส่วนบนของหน้า",
+      "en": "Page showing apartment details for tenants to view details of different apartments such as apartment name, apartment type, price, booking status, and more including the upper part of the page"
+    },
+    "Apartment-detail/หน้าแสดงรายละเอียดอพาร์เม้นท์-ส่วนล่าง.png": {
+      "primary": 3,
+      "th": "หน้าแสดงรายละเอียดของอพาร์เม้นท์สำหรับผู้เช่าเพื่อดูรายละเอียดของอพาร์เม้นท์ต่าง ๆ เช่น ชื่ออพาร์เม้นท์, ประเภทอพาร์เม้นท์, ราคา, สถานะการจอง และอื่น ๆ ส่วนล่างของหน้า",
+      "en": "Page showing apartment details for tenants to view details of different apartments such as apartment name, apartment type, price, booking status, and more including the lower part of the page"
+    }
+  },
+  "invoice": {
+    "primary": 4,
+    "name": "หน้าการชำระเงินการจองห้องเช่า",
+    "invoice/หน้าแสดรายละเอียดการชำระเงิน.png": {
+      "primary": 1,
+      "th": "หน้าแสดงรายละเอียดการชำระเงินสำหรับผู้เช่าเพื่อดูรายละเอียดของการชำระเงินต่าง ๆ เช่น หมายเลขใบแจ้งหนี้, ชื่อผู้เช่า, ชื่ออพาร์เม้นท์, รายการค่าใช้จ่าย, ยอดรวม และอื่น ๆ ส่วนบนของหน้า",
+      "en": "Page showing invoice details for tenants to view details of different invoices such as invoice number, tenant name, apartment name, expense items, total amount, and more including the upper part of the page"
+    },
+    "invoice/หน้ัาป็อปอัพ QR code ชำระเงิน.png": {
+      "primary": 2,
+      "th": "หน้าป็อปอัพ QR code ชำระเงินสำหรับผู้เช่าเพื่อแสดง QR code สำหรับการชำระเงินของการจองห้องเช่า",
+      "en": "Page showing QR code for payment for tenants to pay for their apartment booking"
+    }
+  },
+  "favorite": {
+    "primary": 5,
+    "name": "หน้าแสดงอพาร์ทเม้นท์ที่ชื่นชอบ",
+    "Register-parking/หน้าแสดงอพาร์ทเม้นท์ที่ชื่นชอบ.png": {
+      "primary": 1,
+      "th": "หน้าแสดงอพาร์ทเม้นท์ที่ชื่นชอบของผู้เช่าเพื่อดูรายการอพาร์ทเม้นท์ที่ผู้เช่าได้เพิ่มในรายการชื่นชอบ",
+      "en": "Page showing favorite apartments for tenants to view the list of apartments they have added to their favorites"
+    }
+  },
+  "Profile": {
+    "primary": 6,
+    "name": "หน้าข้อมูลส่วนตัว",
+    "Profile/หน้าโปร์ไฟล์.png": {
+      "primary": 1,
+      "th": "หน้าแสดงข้อมูลส่วนตัวสำหรับผู้เช่าและผู้ให้เช่าและผู้ดูแลระบบเพื่อดูรายละเอียดส่วนตัวต่าง ๆ เช่น ชื่อ, อีเมล, เบอร์โทรศัพท์ และอื่น ๆ",
+      "en": "Page showing personal information for tenants, landlords, and administrators to view various personal details such as name, email, phone number, and more"
+    },
+    "Profile/หน้าแสดงประวัติการจอง.png": {
+      "primary": 2,
+      "th": "หน้าแสดงประวัติการจองสำหรับผู้เช่าหรือประวัติการลงห้องเช่าสำหรับผู้ให้เช่าหรือประวัติการชำระเงินสำหรับตรวจสอบการชำระเงินจองห้องเช่าในภายหลังได้",
+      "en": "Page showing booking history for tenants, listing history for landlords, or payment history for checking payment status of apartment bookings later"
+    }
+  },
+  "Category": {
+    "primary": 7,
+    "name": "หน้าหมวดหมู่ห้องเช่า",
+    "Category/หน้าแสดงหมวดหมุ่-ส่วนบน.png": {
+      "primary": 1,
+      "th": "หน้าแสดงหมวดหมู่ห้องเช่าสำหรับผู้เช่าเพื่อดูหมวดหมู่ห้องเช่าต่าง ๆ เช่น ห้องเดี่ยว, ห้องคู่, ห้องสตูดิโอ และอื่น ๆ ส่วนบนของหน้า",
+      "en": "Page showing rental room categories for tenants to view various rental room categories such as single rooms, double rooms, studio rooms, and more"
+    },
+    "Category/หน้าแสดงหมวดหมุ่-ส่วนล่าง.png": {
+      "primary": 2,
+      "th": "หน้าแสดงหมวดหมู่ห้องเช่าสำหรับผู้เช่าเพื่อดูหมวดหมู่ห้องเช่าต่าง ๆ เช่น ห้องเดี่ยว, ห้องคู่, ห้องสตูดิโอ และอื่น ๆ ส่วนล่างของหน้า",
+      "en": "Page showing rental room categories for tenants to view various rental room categories such as single rooms, double rooms, studio rooms, and more including the lower part of the page"
+    },
+    "Category/หน้าแสดงรายละเอียดหมวดหมู่-ส่วนบน.png": {
+      "primary": 3,
+      "th": "หน้าแสดงรายละเอียดหมวดหมู่ห้องเช่าสำหรับผู้เช่าเพื่อดูรายละเอียดของหมวดหมู่ห้องเช่าต่าง ๆ เช่น ชื่อหมวดหมู่, รายละเอียดหมวดหมู่, จำนวนห้องเช่าในหมวดหมู่ และอื่น ๆ มีวัดระดับ rating ของอพาร์ทเม้นต์ ส่วนบนของหน้า",
+      "en": "Page showing rental room category details for tenants to view details of different rental room categories such as category name, category description, number of rental rooms in the category, and more including the upper part of the page with apartment rating"
+    },
+    "Category/หน้าแสดงรายละเอียดหมวดหมู่-ส่วนล่าง.png": {
+      "primary": 4,
+      "th": "หน้าแสดงรายละเอียดหมวดหมู่ห้องเช่าสำหรับผู้เช่าเพื่อดูรายละเอียดของหมวดหมู่ห้องเช่าต่าง ๆ เช่น ชื่อหมวดหมู่, รายละเอียดหมวดหมู่, จำนวนห้องเช่าในหมวดหมู่ และอื่น ๆ มีวัดระดับ rating ของอพาร์ทเม้นต์ ส่วนล่างของหน้า",
+      "en": "Page showing rental room category details for tenants to view details of different rental room categories such as category name, category description, number of rental rooms in the category, and more including the lower part of the page with apartment rating "
+    }
+  },
+  "Dashboard": {
+    "primary": 8,
+    "name": "หน้าสถิติและการจัดการสำหรับผู้ดูแลระบบ",
+    "Dashboard/หน้าDashboardแอดมินการจองแบบกราฟ-ส่วนบน.png": {
+      "primary": 1,
+      "th": "หน้าแสดงข้อมูลสถิติสำหรับผู้ดูแลระบบเพื่อดูสถิติต่าง ๆ เช่น จำนวนผู้เช่า, จำนวนผู้ให้เช่า, จำนวนห้องเช่า, รายได้รวม และอื่น ๆ ส่วนบนของหน้า",
+      "en": "Page showing statistical information for administrators to view various statistics such as number of tenants, number of landlords, number of rental rooms, total revenue, and more including the upper part of the page"
+    },
+    "Dashboard/หน้าDashboardแอดมินการจองแบบตาราง-ส่วนล่าง.png": {
+      "primary": 2,
+      "th": "หน้าแสดงข้อมูลการจัดการสำหรับผู้ดูแลระบบเพื่อดูข้อมูลการจัดการต่าง ๆ เช่น การจัดการผู้ใช้, การจัดการห้องเช่า, การจัดการการจอง และอื่น ๆ ส่วนล่างของหน้า",
+      "en": "Page showing management information for administrators to view various management information such as user management, rental room management, booking management, and more including the lower part of the page"
+    },
+    "Dashboard/หน้าป็อปอัพยืนยันการจอง-พนักงาน.png": {
+      "primary": 3,
+      "th": "หน้าป็อปอัพยืนยันการจองสำหรับผู้ดูแลระบบเพื่อแสดงข้อมูลการจองห้องเช่าที่ต้องการยืนยันการจองห้องเช่า",
+      "en": "Page showing confirmation popup for administrators to confirm rental room bookings"
+    }
+  },
+  "Report": {
+    "primary": 9,
+    "name": "หน้าแสดงข้อมูลปัญหา",
+    "Report/หน้าแสดงข้อมูลการแก้ปัญหา.png": {
+      "primary": 1,
+      "th": "หน้าแสดงข้อมูลปัญหาสำหรับผู้ดูแลระบบเพื่อดูข้อมูลปัญหาต่าง ๆ เช่น รายงานการจองห้องเช่า, รายงานรายได้, รายงานผู้ใช้ และอื่น ๆ รวมถึงส่วนบนของหน้า",
+      "en": "Page showing issue information for administrators to view various issue information such as rental room booking reports, revenue reports, user reports, and more including the upper part of the page"
+    }
+  }
+
+
+}
